@@ -1156,6 +1156,12 @@ footer {
     }
 }
 
+@media (width < 425px) {
+    .image__small_screen img:nth-child(2) {
+        margin-top: -15px;
+    }
+}
+
 @media (width < 421px) {
     .header__container img {
         min-width: 370px;
