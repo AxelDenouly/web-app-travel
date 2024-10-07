@@ -1,0 +1,178 @@
+
+.house__img img {
+    width: 100%;
+    height: auto;
+}
+
+.house_more_img img {
+    width: 100%;
+    height: auto;
+}
+
+.more__details {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+@media (max-width : 768px) {
+    .list__container {
+        flex-direction: column;
+    }
+    .right__col {
+        display: none;
+    }
+    .input {
+        min-width: 200px;
+    }
+    .house__info h3 {
+        font-size: 1.2rem;
+    }
+    .house__price p {
+        font-size: 1rem;
+    }
+    .more__details {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width : 692px) {
+    .nav__links {
+        display: none;
+    }
+    .map__container iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width : 640px) {
+    .more__details {
+        position: relative;
+        left: -5%;
+    }
+    .map__container iframe {
+        width: 330px;
+    }
+    .footer__container .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__col {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .footer__col h4 {
+        font-size: 1rem;
+    }
+    .footer__col ul li a {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width : 600px) {
+    .part_container {
+        padding-bottom: 3px;
+    }
+    .part_container h2 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        padding-bottom: 10px;
+    }
+    .part_container p {
+        font-size: 1rem;
+    }
+    .booking__nav span {
+        font-size: 1rem;
+    }
+    .booking__container input {
+        font-size: .8rem;
+    }
+    .booking__container label {
+        font-size: 1rem;
+    }
+    .more__details {
+        left: -8%;
+    }
+    .input {
+        min-width: 500px;
+    }
+    .map__container iframe {
+        width: 500px;
+    }
+}
+
+@media (max-width : 540px) {
+    .container_first {
+        width: 80%;
+    }
+    .input {
+        min-width: 450px;
+    }
+    .map__container iframe {
+        width: 450px;
+    }
+}
+
+@media (max-width : 510px) {
+    .container_first {
+        width: 80%;
+        margin-left: 12%;
+    }
+    .house__img img {
+        height: 150px;
+        width: 200px;
+    }
+    .house__info p, .house__price p {
+        font-size: .8rem;
+    }
+    .house__info h3 {
+        font-size: 1rem;
+    }
+    .more__details {
+        font-size: .8rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width : 466px) {
+    .input {
+        min-width: 400px;
+    }
+    .map__container iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width : 417px) {
+    .house__img img {
+        height: 185px;
+        width: 380px;
+    }
+    .house__info {
+        padding-top: 25px;
+        flex-basis: 100%;
+        font-size: .8rem;
+    }
+    .input {
+        min-width: 350px;
+    }
+    .map__container iframe {
+        width: 350px;
+    }
+}
+
+@media (max-width : 402px) {
+    .house__img img {
+        height: 145px;
+        width: 320px;
+    }
+}
+
+@media (max-width : 380px) {
+    .input {
+        min-width: 320px;
+    }
+    .map__container iframe {
+        width: 320px;
+    }
+}

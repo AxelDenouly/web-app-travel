@@ -1,0 +1,66 @@
+.right__col .house_more_img {
+    gap: 1rem;
+}
+.right__col .house_more_img img {
+    max-width: 23%;
+}
+.house__price {
+    padding-top: 10%;
+    padding-left: 0;
+}
+
+@media (max-width : 900px) {
+    .house__img {
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width : 793px) {
+    .right__col .house_more_img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .right__col .house_more_img img {
+        min-width: -webkit-fill-available;
+        height: 90%;
+    }
+    .map__container iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width : 770px) {
+    .right__col {
+        display: flex;
+    }
+}
+
+@media (max-width : 600px) {
+    .map__container iframe {
+        width: 500px;
+    }
+}
+
+@media (max-width : 514px) {
+    .house__img img {
+        width: 100%;
+    }
+    .map__container iframe {
+        width: 450px;
+    }
+}
+
+@media (max-width : 465px) {
+    .map__container iframe {
+        width: 400px;
+    }
+}
+
+@media (max-width : 417px) {
+    .house__img {
+        flex-basis: 100%;
+    }
+    .map__container iframe {
+        width: 350px;
+    }
+}

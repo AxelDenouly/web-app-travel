@@ -1,0 +1,281 @@
+:root {
+    --primary-color: #3d5cb8;
+    --primary-color-dark: #334c99;
+    --text-dark: #0f172a;
+    --text-light: #64748b;
+    --extra-light: #f1f5f9;
+    --white: #fff;
+    --max-width: 1200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.destination__card img {
+    transition: all .3s ease;
+}
+.destination__card img:hover {
+    height: 230px;
+    width: 400px;
+}
+
+/* Partenariat section */
+.part_container {
+    padding: 100px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent),url(../images/Maison_Int.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    margin-top: 60px;
+}
+
+.part_container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+.part_container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(222, 222, 222);
+}
+
+.booking__container {
+    border-radius: 2rem;
+    border: 1px solid #98a0ab5e;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .1);
+}
+
+.booking__nav {
+    max-width: 480px;
+    padding: .5rem 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--extra-light);
+    border-radius: 45px;
+}
+
+
+.booking__nav span {
+    font-size: 20px;
+    font-weight: 600;
+    padding: .5rem 0;
+    margin-left: 3.5%;
+    max-width: 450px;
+    color: var(--text-dark);
+    background-color: #d9e9f9bd;
+    border-radius: 45px;
+}
+
+.booking__container input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--text-dark);
+    background-color: var(--extra-light);
+
+}
+
+.list__container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.left__col {
+    flex-basis: 75%;
+}
+
+.right__col {
+    flex-basis: 20%;
+}
+.sous-titre p {
+    margin-top: 50px;
+}
+.sous-titre h2 {
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.house {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+
+.div__1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.house__img {
+    flex-basis: 40%;
+}
+
+.house__info {
+    padding-top: 5px;
+    flex-basis: 48%;
+    color: #555;
+    font-size: 16px;
+    
+}
+
+.house__img img {
+    width: 120%;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    /* margin-bottom: 20px; */
+}
+
+.house__info h3 {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 1.2rem;
+    margin: 4px 0;
+    margin-bottom: 12px;
+}
+
+.house__info p {
+    margin-bottom: 8px;
+}
+
+.house__info i {
+    color: #ff8400;
+    font-size: 18px;
+    margin: 10px 1px;
+    padding-top: 10px;
+}
+
+.house__price {
+    font-size: 16px;
+    /* text-align: right; */
+    padding-top: 10%;
+    padding-left: 67%;
+}
+
+.house__price span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.house_more_img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: .5rem;
+}
+
+.house_more_img {
+    margin-left: 20px;
+    padding: 30px 0;
+}
+
+.house_more_img img {
+    width: 95%;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+.house_more_img img:hover {
+    width: 130%;
+}
+
+.more__details {
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    border-color: transparent;
+    white-space: nowrap;
+    outline: none;
+    border: 1px solid var(--text-light);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    margin-left: 75%;
+}
+
+.more__details:hover {
+    color: var(--white);
+    background-color: #4e85e4;
+}
+
+.disposition_img_cat {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destination__grid {
+    flex-basis:  75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.categ_2 {
+    display: none;
+}
+
+.categ {
+    flex-basis: 20%;
+    margin-top: 5.5%;
+    border: 1px solid #b8b8b8;
+    border-radius: 10px;
+    padding: 20px 15px 0 15px;
+    flex-wrap: wrap;
+    max-height: 400px;
+}
+
+.categ h3 {
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: var(--text-dark);
+    border-bottom: 1px solid #b8b8b8;
+    width: 80%;
+}
+
+.categ_list {
+    padding-top: 20px;
+}
+
+.categ_list ul li {
+    padding: 25px 0;
+    transition: all .3s ease;
+}
+
+.categ_list ul li a {
+    font-size: 16px;
+    padding: 5px 5px;
+    color: var(--text-light);
+}
+
+.categ_list ul li a:hover {
+    color: var(--text-dark);
+}
+
+.categ_list ul li:hover {
+    transform: translateX(10px);
+}
+
+.note_small p {
+    padding-top: 40px;
+    color: var(--text-light);
+}

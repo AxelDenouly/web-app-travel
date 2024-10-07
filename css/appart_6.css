@@ -1,0 +1,32 @@
+/* .house_more_img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 50px 0;
+} */
+
+.right__col {
+    display: grid;
+    flex-basis: 100%;
+}
+.right__col .house_more_img {
+    height: 180px;
+}
+
+.house_more_img img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+@media (max-width : 793px) {
+    .house_more_img {
+        height: 0px;
+    }
+    .right__col .house_more_img {
+        width: 100%;
+        height: 150px;
+    }
+}
