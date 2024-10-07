@@ -1243,7 +1243,7 @@ footer {
 @media (width < 415px) {
     .image__small_screen img:nth-child(2) {
         position: absolute;
-        margin-top: -55px;
+        margin-top: -15px;
         width: 50px;
     }
 }
