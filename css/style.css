@@ -1240,13 +1240,13 @@ footer {
     } */
 }
 
-@media (width < 415px) {
+/* @media (width < 415px) {
     .image__small_screen img:nth-child(2) {
         position: absolute;
         margin-top: -15px;
         width: 50px;
     }
-}
+} */
 
 @media (width < 395px) {
     .image__small_screen {
