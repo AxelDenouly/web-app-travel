@@ -169,6 +169,18 @@
 }
 
 @media (max-width : 380px) {
+    .container_first {
+        margin-left: 8%;
+    }
+    .nav__links_small_screen {
+        padding: 4px 8px;
+    }
+    .nav__links_small_screen a {
+        font-size: 12px;
+    }
+    .nav__logo a {
+        font-size: 20px;
+    }
     .input {
         min-width: 320px;
     }
