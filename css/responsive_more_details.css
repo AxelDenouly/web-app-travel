@@ -64,3 +64,8 @@
         width: 350px;
     }
 }
+@media (max-width : 361px) {
+    .right__col .house_more_img img {
+        height: 70%;
+    }
+}
