@@ -133,6 +133,9 @@ nav {
     gap: 2rem;
     /* transition: all .3s ease; */
 }
+.nav__links_small_screen {
+    display: none;
+}
 
 .link a {
     font-weight: 500;
