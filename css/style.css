@@ -917,6 +917,15 @@ footer {
     .nav__links {
         display: none;
     }
+    .nav__links_small_screen {
+        display: flex;
+        padding: 5px 15px;
+        background-color: var(--primary-color);
+        border-radius: 1rem;
+    }
+    .nav__links_small_screen li a {
+        color: #fff;
+    }
 
     .booking__nav span {
         padding: 1rem .5rem;
