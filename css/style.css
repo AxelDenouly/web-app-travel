@@ -1333,6 +1333,9 @@ footer {
 }
 
 @media (width < 361px) {
+    .container_first {
+        margin-left: 0px;
+    }
     .image__small_screen img:nth-child(2) {
         position: absolute;
         margin-top: -125px;
