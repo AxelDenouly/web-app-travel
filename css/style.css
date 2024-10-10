@@ -1261,6 +1261,18 @@ footer {
 } */
 
 @media (width < 395px) {
+    .container_first {
+        margin-left: 8%;
+    }
+    .nav__links_small_screen {
+        padding: 4px 8px;
+    }
+    .nav__links_small_screen a {
+        font-size: 12px;
+    }
+    .nav__logo a {
+        font-size: 20px;
+    }
     .image__small_screen {
         margin-left: 82%;
     }
