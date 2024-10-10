@@ -1353,4 +1353,11 @@ footer {
         margin-top: -125px;
         width: 50px;
     }
+    .input {
+        min-width: 330px;
+    }
+    .map__container iframe {
+        width: 330px;
+        height: 400px;
+    }
 }
