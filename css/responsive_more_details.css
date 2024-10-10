@@ -66,6 +66,7 @@
 }
 @media (max-width : 361px) {
     .right__col .house_more_img img {
-        height: 70%;
+        max-width: 100%;
+        height: 105px;
     }
 }
