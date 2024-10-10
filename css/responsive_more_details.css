@@ -64,7 +64,7 @@
         width: 350px;
     }
 }
-@media (max-width : 361px) {
+@media (max-width : 365px) {
     .right__col .house_more_img img {
         max-width: 100%;
         height: 105px;
